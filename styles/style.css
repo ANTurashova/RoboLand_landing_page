@@ -3,4 +3,78 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.heading{
+    height: 150px;
+}
+.heading span{
+    font-size: 34px;
+}
+.navigation{
+    height: 184px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.text1{
+    font-size: 18px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-all{
+    height: 600px;
+}
+.video{
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.stripe_violet{
+    width: 100%;
+    height: 168px;
+    background-color: aquamarine;
+    background-image: url("https://thumb.tildacdn.com/tild6461-3864-4330-b061-323463386266/-/format/webp/_5.png");
+    background-position: center;
+}
+.footer_violet{
+    height: 300px;
+    background-color: #662d91;
+}
+.footer_violet span{
+    font-size: 34px;
+    color: white;
+}
+
+
+
+
+
+.stripe_blue{
+    width: 100%;
+    height: 168px;
+    background-color: aquamarine;
+    background-image: url("https://thumb.tildacdn.com/tild3732-3762-4366-a438-363236306661/-/format/webp/_4.png");
+    background-position: center;
+}
+.footer_blue{
+    height: 350px;
+    background-color: #0c112e;
+}
+.footer_blue span{
+    font-size: 24px;
+    color: white;
+}
+.footer_blue span2{
+    display: inline;
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+}
+.footer_blue p{
+    font-size: 14px;
+    color: white;
+    line-height: 22px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
