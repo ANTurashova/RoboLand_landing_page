@@ -33,7 +33,7 @@ body{
     width: 100%;
     height: 168px;
     background-color: aquamarine;
-    background-image: url("https://thumb.tildacdn.com/tild6461-3864-4330-b061-323463386266/-/format/webp/_5.png");
+    background-image: url(../img/stripe_violet.png);
     background-position: center;
 }
 .footer_violet{
@@ -53,7 +53,7 @@ body{
     width: 100%;
     height: 168px;
     background-color: aquamarine;
-    background-image: url("https://thumb.tildacdn.com/tild3732-3762-4366-a438-363236306661/-/format/webp/_4.png");
+    background-image: url(../img/stripe_blue.png);
     background-position: center;
 }
 .footer_blue{

@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(/images/1.jpg);
+    background-image: url(../img/foto1.webp);
 }
 .sale{
     background-color: #083C6E;
