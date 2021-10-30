@@ -4,7 +4,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .heading{
-    height: 150px;
+    height: 200px;
 }
 .heading span{
     font-size: 34px;
@@ -13,6 +13,21 @@ body{
     height: 184px;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.navigation2{
+    border-bottom: 4px solid #eee;
+    padding: 0 10px;
+    color: #777;
+    font-size: 16px;
+    height: 50px;
+}
+.navigation2:hover{
+    border-bottom-color: #662d91;
+}
+.navigation1{
+    border-bottom-color: #662d91;
+    color: #662d91;
 }
 .text1{
     font-size: 18px;
