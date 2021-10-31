@@ -3,18 +3,23 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+}
+.imglogo{
+  text-align: right;
+}
 .heading{
     height: 200px;
 }
 .heading span{
-    font-size: 34px;
+    font-size: 30px;
 }
 .navigation{
     height: 184px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .navigation2{
     border-bottom: 4px solid #eee;
     padding: 0 10px;
@@ -36,7 +41,7 @@ body{
     margin-right: auto;
 }
 .carousel-all{
-    height: 600px;
+    height: 700px;
 }
 .video{
     width: 840px;
@@ -92,4 +97,8 @@ body{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bor{
+    border: 1px solid black;
 }
