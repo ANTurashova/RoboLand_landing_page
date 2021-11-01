@@ -1,7 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
 
 body{
     font-family: 'Roboto', sans-serif;
+}
+.font_light{
+    font-weight: 300;
+}
+.font_light_italic{
+    font-weight: 300;
+    font-style: italic;
+}
+.font_medium{
+    font-weight: 500;
+}
+.font_medium_italic{
+    font-weight: 500;
+    font-style: italic;
+}
+.font_blue{
+    color: #304b79;
 }
 a{
     text-decoration: none;
@@ -16,9 +33,9 @@ a{
     font-size: 30px;
 }
 .navigation{
-    height: 184px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    height: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .navigation2{
     border-bottom: 4px solid #eee;
@@ -43,12 +60,15 @@ a{
 .carousel-all{
     height: 700px;
 }
-.video{
+.video1{
     width: 840px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
 }
-
+.video2{
+    height: 473px;
+}
 .stripe_violet{
     width: 100%;
     height: 168px;
