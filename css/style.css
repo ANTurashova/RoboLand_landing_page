@@ -1,31 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
-.font_light{
+.font_300{
     font-weight: 300;
 }
-.font_light_italic{
+.font_300_italic{
     font-weight: 300;
     font-style: italic;
 }
-.font_medium{
-    font-weight: 500;
-}
-.font_medium_italic{
-    font-weight: 500;
-    font-style: italic;
-}
+
 .font_blue{
     color: #304b79;
 }
 .bg_gray{
     background-color: #ebebeb;
-    /*margin-left: 0;*/
-    /*margin-right: 0;*/
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
 }
-
 a{
     text-decoration: none;
 }
@@ -90,11 +85,6 @@ a{
     font-size: 34px;
     color: white;
 }
-
-
-
-
-
 .stripe_blue{
     width: 100%;
     height: 168px;
@@ -124,50 +114,57 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
-
 .bor{
     border: 1px solid black;
 }
-
 .kak_proh{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 
 }
-
 .kak_col{
     position: relative;
     padding: 0;
 }
-
 .kak_circle{
     width: 48px;
     height: 48px;
     background: #dab03c;
     border-radius: 100%;
     border: 2px solid #fff;
-    left: 23%;
     position: absolute;
 }
 .kak_line{
     width: 2px ;
     background: #304b79;
-
-
     position: absolute;
     height: 100%;
-    left: 50%;
-    /*margin-left: 17px;*/
+    margin-left: 22px;
 }
-
 .kak_number{
     text-align: center;
     color: white;
     font-size: 20px;
     padding-top: 7px;
 }
-
-
-
+.kartochka{
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+    color: black;
+}
+.kartochka:hover{
+    background-color: #9678c4;
+}
+.button_purple{
+    color: #ffffff;
+    background-color: #662d91;
+    height: 45px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+}
 
